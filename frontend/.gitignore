@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 frontend/tailwindcss
+
+.DS_Store
+resumes/
