@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-grayBg text-dark font-sans; /* Inter is assigned to font-sans */
+  }
+
+  h1, h2, h3 {
+    @apply font-playfair; /* Use Playfair for headings */
+  }
+}
